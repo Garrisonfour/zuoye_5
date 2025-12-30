@@ -25,7 +25,7 @@
 ## 三、快速运行
 ### 1. 编译工作空间
 ```bash
-# 进入工作空间（请替换为你的实际路径）
+# 进入工作空间
 cd ~/color_ws
 # 编译指定功能包
 colcon build --packages-select color_detection
@@ -72,5 +72,3 @@ source install/setup.bash
 | `/color_detection/red_mask` | `sensor_msgs/Image` | 红色块识别后的掩码图像   |
 | `/color_detection/blue_mask` | `sensor_msgs/Image` | 蓝色块识别后的掩码图像   |
 
-
-要不要我帮你补充一份**常见问题排查清单**，比如“摄像头无图像”“识别效果差”的解决方法？
